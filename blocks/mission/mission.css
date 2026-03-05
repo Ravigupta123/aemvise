@@ -1,0 +1,29 @@
+.mission-item {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.mission-item img {
+  width: 100%;
+  display: block;
+}
+
+.mission-content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  max-width: 500px;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  color: white;
+}
+
+.mission-content h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.mission-content p {
+  font-size: 16px;
+}

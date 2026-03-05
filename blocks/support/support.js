@@ -5,8 +5,6 @@ export default function decorate(block) {
   wrapper.className = 'support-grid';
 
   rows.forEach((row) => {
-    if (!row.textContent.trim()) return;
-
     const card = document.createElement('div');
     card.className = 'support-card';
 

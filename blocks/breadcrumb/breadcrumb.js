@@ -18,7 +18,7 @@ export default function decorate(block) {
   };
 
   function normalizeKey(key) {
-    return key.replace(/[\s\-]/g, '').toLowerCase();
+    return key.replace(/[\s-]/g, '').toLowerCase();
   }
 
   const path = window.location.pathname
@@ -51,5 +51,6 @@ export default function decorate(block) {
   }
 
   container.append(ol);
+  block.textContent = '';
   block.append(container);
 }

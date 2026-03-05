@@ -1,12 +1,11 @@
 export default function decorate(block) {
-  const rows = [...block.querySelectorAll(':scope > div')];
+  const rows = [...block.querySelectorAll('tr')];
 
   const wrapper = document.createElement('div');
-  wrapper.className = 'mission-grid';
+  wrapper.className = 'mission-wrapper';
 
   rows.slice(1).forEach((row) => {
-    const cols = row.querySelectorAll('div');
-
+    const cols = row.querySelectorAll('td');
     if (cols.length < 3) return;
 
     const imgUrl = cols[0].textContent.trim();
@@ -16,9 +15,9 @@ export default function decorate(block) {
     const section = document.createElement('div');
     section.className = 'mission-item';
 
-    const image = document.createElement('img');
-    image.src = imgUrl;
-    image.alt = title;
+    const img = document.createElement('img');
+    img.src = imgUrl;
+    img.alt = title;
 
     const content = document.createElement('div');
     content.className = 'mission-content';
@@ -30,7 +29,8 @@ export default function decorate(block) {
     body.textContent = text;
 
     content.append(heading, body);
-    section.append(image, content);
+    section.append(img, content);
+
     wrapper.append(section);
   });
 

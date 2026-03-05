@@ -1,26 +1,26 @@
 export default function decorate(block) {
-
-  const row = block.querySelector("tr:nth-child(2)");
+  const row = block.querySelector(':scope > div:nth-child(2)');
   if (!row) return;
 
-  const cols = row.querySelectorAll("td");
+  const cols = row.querySelectorAll('div');
 
-  const desktop = cols[0].textContent.trim();
-  const mobile = cols[1].textContent.trim();
+  const desktopImg = cols[0]?.querySelector('img');
+  const mobileImg = cols[1]?.querySelector('img');
 
-  const picture = document.createElement("picture");
+  if (!desktopImg || !mobileImg) return;
 
-  const source = document.createElement("source");
-  source.setAttribute("media", "(max-width: 991px)");
-  source.setAttribute("srcset", mobile);
+  const picture = document.createElement('picture');
 
-  const img = document.createElement("img");
-  img.src = desktop;
-  img.alt = "Footer Banner";
+  const source = document.createElement('source');
+  source.setAttribute('media', '(max-width: 991px)');
+  source.srcset = mobileImg.src;
+
+  const img = document.createElement('img');
+  img.src = desktopImg.src;
+  img.alt = desktopImg.alt || 'Footer Banner';
 
   picture.append(source, img);
 
-  block.textContent = "";
+  block.textContent = '';
   block.append(picture);
-
 }

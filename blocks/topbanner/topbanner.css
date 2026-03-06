@@ -1,0 +1,20 @@
+.topbanner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.topbanner picture,
+.topbanner img {
+  width: 100%;
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Mobile spacing fix */
+@media (max-width: 768px) {
+  .topbanner img {
+    width: 100%;
+  }
+}

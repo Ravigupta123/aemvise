@@ -1,0 +1,542 @@
+.Ab70 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.advImg Ab70 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.advImg Ab60 {
+  padding-top: 20px;
+}
+
+.ad70 {
+  padding-bottom: 20px;
+}
+
+.WISECHOICE {
+  color: #f50514;
+  font-family: var(--font-clash-medium);
+  font-size: 63px;
+  line-height: 63px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.abtTitle {
+  font-size: 45px;
+  line-height: 45px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.culture {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+.culture p {
+  padding: 26px;
+  font-size: 33px;
+  font-family: var(--font-clash-medium);
+}
+
+.superstores {
+  width: 81%;
+  margin: auto;
+}
+
+.electronic {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 15px 15px 30px 15px;
+}
+
+.electronic:last-child {
+  margin-bottom: 0;
+}
+.resimg {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.cattext {
+  font-size: 24px;
+  text-align: center;
+  margin: 16px;
+}
+
+.imgtext .researchers {
+  padding: 18px 7%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.overlay {
+  position: absolute;
+  color: #fff;
+  padding: 20px;
+  width: 49%;
+  left: 60px;
+  top: 60px;
+}
+
+.overlay h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.posimg {
+  position: relative;
+}
+
+.overlay h2 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: var(--font-clash-medium);
+}
+
+.overlay p {
+  font-size: 32px;
+  margin-top: 15px;
+  width: 71%;
+  font-family: var(--font-clash-medium);
+  font-weight: 400;
+}
+
+.onetext {
+  font-size: 32px;
+  margin-top: 35px;
+  line-height: 45px;
+  font-family: var(--font-clash-light);
+}
+
+.phsec .onetext {
+  width: 79%;
+}
+
+.consu {
+  font-family: var(--font-clash-medium);
+}
+
+span.vise_t {
+  font-weight: bold;
+}
+
+.resimg {
+  width: 33.33%;
+}
+
+.Img_gb {
+  display: flex;
+}
+
+.Img_gc {
+  background-color: #f4f4f4;
+  padding: 50px 0px;
+}
+
+section.advImg.Abc60 {
+  padding: 20px;
+}
+
+.bttmBanner {
+  width: 100%;
+  display: block;
+  margin-bottom: -5px;
+}
+
+.phsec ul {
+  margin-top: 35px;
+}
+
+.phsec li {
+  text-align: left;
+  font-size: 32px;
+  line-height: 35px;
+  font-family: var(--font-clash-light);
+}
+
+@media (max-width: 1599px) {
+  .abtTitle {
+    font-size: 42px;
+    line-height: 42px;
+  }
+
+  .WISECHOICE {
+    font-size: 58px;
+    line-height: 58px;
+  }
+
+  .culture p {
+    font-size: 28px;
+  }
+
+  .electronic {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .overlay h2 {
+    font-size: 54px;
+  }
+
+  .overlay p {
+    font-size: 27px;
+  }
+
+  .onetext {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .phsec li {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .imgtext .researchers {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .abtTitle {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .WISECHOICE {
+    font-size: 52px;
+    line-height: 52px;
+  }
+
+  .culture p {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .electronic {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .overlay {
+    left: 50px;
+    top: 30px;
+  }
+
+  .overlay h2 {
+    font-size: 48px;
+  }
+
+  .overlay p {
+    font-size: 23px;
+  }
+
+  .onetext, .phsec ul {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+
+  .cattext {
+    font-size: 20px;
+  }
+
+  .imgtext .researchers {
+    padding: 18px 6%;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .imgtext .researchers {
+    padding: 18px 7%;
+  }
+
+  .culture {
+    width: 87%;
+  }
+
+  .superstores {
+    width: 96%;
+  }
+
+  .overlay {
+    top: 12px;
+    left: 20px;
+  }
+
+  .overlay h2 {
+    font-size: 42px;
+  }
+
+  .overlay p {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+
+  .resimg {
+    width: 24%;
+  }
+
+  .phsec li {
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .abtTitle {
+    font-size: 65px;
+    line-height: 65px;
+    padding-bottom: 35px;
+  }
+
+  .WISECHOICE {
+    font-size: 66px;
+    line-height: 66px;
+  }
+
+  .culture p {
+    font-size: 30px;
+    padding: 35px 0;
+  }
+
+  .electronic {
+    font-size: 26px;
+    line-height: 35px;
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .overlay h2 {
+    font-size: 75px;
+    font-family: var(--font-clash-regular);
+  }
+
+  .overlay p {
+    font-size: 30px;
+    width: 85%;
+    margin: 20px auto 0;
+  }
+
+  .onetext {
+    font-size: 32px;
+    margin-top: 20px;
+    line-height: 42px;
+  }
+
+  .phsec ul{
+    margin-left: 40px;
+  }
+
+  .phsec li {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .phsec .onetext {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .consu {
+    font-family: var(--font-clash-regular);
+  }
+
+  .resimg {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+
+  .imgtext .researchers {
+    padding: 18px 10%;
+    font-size: 26px;
+  }
+
+  .Img_gb {
+    flex-wrap: wrap;
+  }
+
+  .overlay {
+    color: #fff;
+    padding: 40px;
+    left: 0px;
+    bottom: 35px;
+    top: unset;
+    width: 100%;
+    text-align: center;
+  }
+
+  .supportsec {
+    /* display: none; */
+  }
+}
+
+@media (max-width: 767px) {
+  .WISECHOICE {
+    font-size: 52px;
+    line-height: 52px;
+  }
+
+  .culture {
+    width: 95%;
+  }
+
+  .culture p {
+    font-size: 25px;
+  }
+
+  .electronic {
+    font-size: 25px;
+    width: 95%;
+  }
+
+  .overlay h2 {
+    font-size: 58px;
+  }
+
+  .overlay p {
+    width: 90%;
+    font-size: 26px;
+    line-height: 36px;
+    margin: 30px auto 0;
+  }
+
+  .phsec .onetext {
+    width: 90%;
+  }
+
+  .onetext {
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 20px;
+  }
+
+  .phsec li {
+    font-size: 26px;
+  }
+
+  .resimg {
+    width: 100%;
+  }
+
+  .Img_gb {
+    display: block;
+  }
+
+  .cattext {
+    font-size: 28px;
+  }
+
+  .resimg {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .imgtext .researchers {
+    padding: 50px 0 0;
+  }
+
+  .Img_gc {
+    background-color: #ffffff;
+  }
+
+  .pb50 {
+    padding-bottom: 20px;
+  }
+
+  .py50 {
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  .abtTitle {
+    font-size: 10.5vw;
+    line-height: 10.5vw;
+    padding-bottom: 25px;
+  }
+
+  .WISECHOICE {
+    font-size: 9vw;
+    line-height: 9vw;
+  }
+
+  .culture p {
+    padding: 0;
+    font-size: 6.2vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .electronic {
+    font-size: 4.2vw;
+    line-height: 5.2vw;
+    padding: 0;
+  }
+
+  .overlay h2 {
+    font-size: 10.5vw;
+    line-height: 10.5vw;
+  }
+
+  .overlay p {
+    width: 90%;
+    font-size: 4.5vw;
+    line-height: 6.5vw;
+    margin: 20px auto 0;
+  }
+
+  .onetext {
+    font-size: 4.3vw;
+    line-height: 6vw;
+  }
+
+  .phsec li {
+    font-size: 4.3vw;
+  }
+
+  .overlay {
+    bottom: 15px;
+  }
+
+  .py50 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .resimg:last-child {
+    margin-bottom: 25px;
+  }
+
+  .cattext {
+    font-size: 6vw;
+  }
+
+  .imgtext .researchers {
+    padding: 40px 10px 0;
+    font-size: 4.3vw;
+  }
+}
+@media (max-width: 480px) {
+}
+
+@media (max-width: 359px) {
+  .overlay p,
+  .phsec .onetext {
+    width: 100%;
+  }
+
+  .overlay p,
+  .onetext {
+    margin: 20px auto 0;
+  }
+}

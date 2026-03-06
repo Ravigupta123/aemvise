@@ -1,0 +1,36 @@
+.product-range {
+  max-width: 1200px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.product-range h2 {
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.product-range p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: var(--font-clash-medium);
+}
+
+.product-range ul {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.product-range li {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.product-range li b {
+  font-family: var(--font-clash-medium);
+}

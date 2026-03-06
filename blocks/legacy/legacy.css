@@ -1,0 +1,21 @@
+.legacy {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.legacy h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.legacy h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.legacy p {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 900px;
+  margin: 10px auto;
+}

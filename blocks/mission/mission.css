@@ -1,0 +1,28 @@
+.mission-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.mission-card {
+  width: 300px;
+  text-align: center;
+}
+
+.mission-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.mission-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.mission-card p {
+  font-size: 16px;
+  line-height: 24px;
+}

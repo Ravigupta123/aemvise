@@ -1,4 +1,3 @@
-
 export default function decorate(block) {
   const row = block.querySelector('div');
   if (!row) return;

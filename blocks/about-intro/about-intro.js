@@ -1,5 +1,6 @@
 import './about-intro.css';
 
 export default function decorate(block) {
-  // optional JS
+  // Example: mark block as decorated
+  block.classList.add('about-intro-decorated');
 }

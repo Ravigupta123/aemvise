@@ -1,0 +1,22 @@
+.about-intro h2 {
+  font-size: 45px;
+  line-height: 45px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.about-intro h3 {
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.about-intro p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  font-family: var(--font-clash-medium);
+  padding: 26px 0;
+}

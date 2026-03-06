@@ -1,0 +1,10 @@
+.footerbanner picture {
+  display: block;
+  width: 100%;
+}
+
+.footerbanner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

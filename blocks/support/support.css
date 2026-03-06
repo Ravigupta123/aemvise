@@ -1,0 +1,14 @@
+.support-wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f5f5f5;
+}
+
+.support-wrapper h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.support-wrapper p {
+  font-size: 16px;
+}
